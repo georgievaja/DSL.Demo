@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="InterpreterTypes.fs" />
+    <Compile Include="Interpreter.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DSL.Domain\DSL.Teams.fsproj" />
+    <ProjectReference Include="..\DSL.Parser\DSL.Parser.fsproj" />
+  </ItemGroup>
+
+</Project>

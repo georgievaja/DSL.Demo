@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DSL.Parser", "DSL.Parser\DSL.Parser.fsproj", "{1E5B2B8A-71B6-4F7B-AB0C-ADCC7B5E7957}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DSL.Language", "DSL.Language\DSL.Language.fsproj", "{9266613E-E275-4CB2-94DD-07FB31C173B1}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DSL.Interpreter", "DSL.Interpreter\DSL.Interpreter.fsproj", "{60303BE5-48EA-49AA-8B18-51D598DE0DE0}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DSL.Parser.Tests", "DSL.Parser.Tests\DSL.Parser.Tests.fsproj", "{414F4D71-5D1B-4BDF-8A4B-8F9362D6B3BD}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DSL.Teams", "DSL.Domain\DSL.Teams.fsproj", "{0DD64B1F-71F3-48A9-82A6-E04D1373DFB1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DSL.Types", "DSL.Types\DSL.Types.fsproj", "{4BAA0301-A2D5-4962-876B-3978CFDCC4F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E5B2B8A-71B6-4F7B-AB0C-ADCC7B5E7957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5B2B8A-71B6-4F7B-AB0C-ADCC7B5E7957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5B2B8A-71B6-4F7B-AB0C-ADCC7B5E7957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5B2B8A-71B6-4F7B-AB0C-ADCC7B5E7957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9266613E-E275-4CB2-94DD-07FB31C173B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9266613E-E275-4CB2-94DD-07FB31C173B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9266613E-E275-4CB2-94DD-07FB31C173B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9266613E-E275-4CB2-94DD-07FB31C173B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60303BE5-48EA-49AA-8B18-51D598DE0DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60303BE5-48EA-49AA-8B18-51D598DE0DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60303BE5-48EA-49AA-8B18-51D598DE0DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60303BE5-48EA-49AA-8B18-51D598DE0DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414F4D71-5D1B-4BDF-8A4B-8F9362D6B3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414F4D71-5D1B-4BDF-8A4B-8F9362D6B3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414F4D71-5D1B-4BDF-8A4B-8F9362D6B3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414F4D71-5D1B-4BDF-8A4B-8F9362D6B3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD64B1F-71F3-48A9-82A6-E04D1373DFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD64B1F-71F3-48A9-82A6-E04D1373DFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD64B1F-71F3-48A9-82A6-E04D1373DFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD64B1F-71F3-48A9-82A6-E04D1373DFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAA0301-A2D5-4962-876B-3978CFDCC4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAA0301-A2D5-4962-876B-3978CFDCC4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAA0301-A2D5-4962-876B-3978CFDCC4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAA0301-A2D5-4962-876B-3978CFDCC4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71095F4C-67F8-4A0B-8D17-B24B324EEEF3}
+	EndGlobalSection
+EndGlobal

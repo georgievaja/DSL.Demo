@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="ParserTypes.fs" />
+    <Compile Include="AbstractSyntaxTree.fs" />
+    <Compile Include="WhiteSpaceParsers.fs" />
+    <Compile Include="CharParsers.fs" />
+    <Compile Include="IdentifierParsers.fs" />
+    <Compile Include="DataTypeParsers.fs" />
+    <Compile Include="OperatorParsers.fs" />
+    <Compile Include="OperationParsers.fs" />
+    <Compile Include="Parser.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FParsec" Version="1.0.4-RC3" />
+  </ItemGroup>
+
+</Project>
